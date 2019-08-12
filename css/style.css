@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Main Styling */
+html,body{
+  font-family: 'Roboto', sans-serif;
+}
+a {
+  text-decoration: none;
+}
+p {
+  margin: 0.75rem 0;
+}
+
+/* Utility class section */
+.container{
+  margin: auto;
+  max-width: 1100px;
+  overflow: auto;
+  padding: 0 20px;
+}
+.text-primary{
+  color: #93cb52;
+}
+.lead{
+  font-size: 20px;
+}
+.btn{
+  display: inline-block;
+  font-size: 18px;
+  color: #fff;
+  background: #333;
+  padding: 13px 20px;
+  border: none;
+  cursor: pointer;
+}
+.btn:hover{
+  background: #f7c08a;
+  color: #333;
+}
+.btn-light{
+  background: #f4f4f4;
+  color: #333;
+}
+.bg-dark{
+  background: #333;
+  color: #fff;
+}
+.bg-primary{
+  background: #93cb52;
+  color: #333;
+}
+.clr{
+  clear: both;
+}
+.l-heading{
+  font-size: 40px;
+}
+
+/* Navbar section */
+#navbar{
+  display: flex;
+  position: sticky;
+  top: 0;
+  background: #333;
+  color: #fff;
+  justify-content: space-between;
+  z-index: 1;
+  padding: 1rem;
+}
+#navbar ul{
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+#navbar ul li a{
+  color: #fff;
+  padding: 0.75rem;
+  margin: 0 0.25rem;
+}
+#navbar ul li a:hover{
+  background: #93cb52;
+  color: #fff;
+  border-radius: 5px;
+}
