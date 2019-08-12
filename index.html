@@ -125,5 +125,41 @@
         </div>
     </section>
 
+    <section id="contact">
+        <div class="contact-form bg-primary p-2">
+            <h2 class="m-heading">Contact Us</h2>
+            <p>Please use the form below to contact us</p>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" placeholder="Enter Name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Enter Email">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone number</label>
+                    <input type="text" name="phone" id="phone" placeholder="Enter Phone number">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" placeholder="Enter Message"></textarea>
+                </div>
+                <input type="submit" value="Send" class="btn btn-dark">
+            </form>
+        </div>
+        <div class="map"></div>
+    </section>
+
+    <footer id="main-footer" class="bg-dark text-center py-1">
+       <p>Copyright &copy; 2019, techBola Financial, All Rights Reserved </p>
+    </footer>
+
+    <script src="./js/main.js"></script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCbWaFEcqmOJzTNXD0mwYgx6bkm-q9EKqk&callback=initMap"
+    async defer></script>
+
 </body>
 </html>
